@@ -1,0 +1,7 @@
+site_name: Agile Toolkit for Product Owner
+repo_url: https://github.com/jcalonsoh/agile-toolkit
+pages:
+    - Home: index.md
+theme: material
+extra:
+    version: 3.6
