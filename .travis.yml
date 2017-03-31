@@ -1,0 +1,10 @@
+language: python
+python:
+- '2.7.13'
+install: "pip install -r requirements.txt"
+script:
+  - mkdocs gh-deploy --clean --remote-name https://{GITHUB_REPO}@github.com/jcalonsoh/agile-toolkit.git
+env:
+  global:
+    - GITHUB_REPO: "jcalonsoh/agile-toolkit"
+    - secure: "faadJwfQcWot108EUl+lRcubN1qk4W53sRYr5Kk2I9mDDcF1RLSlrDVgMuzBKa6NTw5mPxReWT5esZQmb9q2A0HJq+C+gWHiqkAU2lNaOeHcavVrdi+ssaML6qfI0eNstoH2HkianNeX2odSPm9ZoIbNiEgzN7CMfVoXjp5eyO3bQelrK5ixdTPpC60VGjhcnebTNT/5HnqsuMYnWOK8hdfGH6pZOFlZDPvd27JPiHPhvzBSkc6t5ASl0ITgHl/7t48c8bI/ZffNjkT63HcTwEJFF2hSDWg3/tKIwF0x2IyhOkyPWyHOnPh/qkDs59zzoPwkTv0/tWMKJHfrF2EeOhl0tgY41mnwyhZgqB+UG/OPQE5kFjmIkrK/exkZVuIVA1KBQbtFB82NMmH0RG8A4tFNX6iqLrieyCqlfHB5L+Ry9MmkUuSu184cok6O3qyZCm/gOGrggsMZqcJ/nK1z9xf9ncD1StFhY4YPNbXfs31IrqDc9GOBX1wxOBiLotCAHz6xRgSrBKBb5SUiUDUxiLyL5t7k7glMo95AuR4qRCKDWYGFmf4BHuYJdO/N/RnsAwdWBmOtE9UzR530+bxvlpqoAEXBm5Z/ZJXZJgemX9KQuZX1Xdu6HKaapTIzMqkiQBh3bhW9Z7wKBma2cMKsFCATXprGCKCzC7ewBCqCmcQ="
