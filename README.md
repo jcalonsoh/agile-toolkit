@@ -1,4 +1,3 @@
 # agile-toolkit
 
-
-Hola soy Juan Carlos Alonso
+https://jcalonsoh.github.io/agile-toolkit/
