@@ -1,10 +1,10 @@
 language: python
 python:
-- '2.7.13'
-install: "pip install -r requirements.txt"
+- 2.7.14
+install: pip install -r requirements.txt
 script:
-  - mkdocs gh-deploy --clean --force --remote-name https://${GITHUB_TOKEN}@github.com/${GITHUB_REPO}.git
+- mkdocs gh-deploy --clean --force --remote-name https://${GITHUB_TOKEN}@github.com/${GITHUB_REPO}.git
 env:
   global:
-    - GITHUB_REPO: "jcalonsoh/agile-toolkit"
-    - secure: "faadJwfQcWot108EUl+lRcubN1qk4W53sRYr5Kk2I9mDDcF1RLSlrDVgMuzBKa6NTw5mPxReWT5esZQmb9q2A0HJq+C+gWHiqkAU2lNaOeHcavVrdi+ssaML6qfI0eNstoH2HkianNeX2odSPm9ZoIbNiEgzN7CMfVoXjp5eyO3bQelrK5ixdTPpC60VGjhcnebTNT/5HnqsuMYnWOK8hdfGH6pZOFlZDPvd27JPiHPhvzBSkc6t5ASl0ITgHl/7t48c8bI/ZffNjkT63HcTwEJFF2hSDWg3/tKIwF0x2IyhOkyPWyHOnPh/qkDs59zzoPwkTv0/tWMKJHfrF2EeOhl0tgY41mnwyhZgqB+UG/OPQE5kFjmIkrK/exkZVuIVA1KBQbtFB82NMmH0RG8A4tFNX6iqLrieyCqlfHB5L+Ry9MmkUuSu184cok6O3qyZCm/gOGrggsMZqcJ/nK1z9xf9ncD1StFhY4YPNbXfs31IrqDc9GOBX1wxOBiLotCAHz6xRgSrBKBb5SUiUDUxiLyL5t7k7glMo95AuR4qRCKDWYGFmf4BHuYJdO/N/RnsAwdWBmOtE9UzR530+bxvlpqoAEXBm5Z/ZJXZJgemX9KQuZX1Xdu6HKaapTIzMqkiQBh3bhW9Z7wKBma2cMKsFCATXprGCKCzC7ewBCqCmcQ="
+  - GITHUB_REPO: jcalonsoh/agile-toolkit
+  - secure: h60moSy7+oKSFVZ+8BnFJdw2eRkoJenT3D45HTmRGmUwVSmz9gpOIZ/Ihlzxwic2YTX5qsXcbeuGLkoPms6zLHF6VLW5BXmoKg9/lZOi9tPaY8+1UULZ5tmr0Lz0zZxId83/oujzq0aav5FPA+j19DKkZOodu+z4EEecqXUJokz618eWrlLHrYKYDv6PdNQ8ziUts/EIU3jqnnogYh3lw/UbZOzrK9y+VZ2yGAsOPAfY3qqhkHCihgn4T86c29Hns0UWWsJJQNFluVseQSpWCRilrOpEloiI6SNcWiP/9wmDxfgg6e6/uiFe7lM41K8pW8iAoL0eaBAQuwrHC/zKHnu9ASm9B6D/2t4uBN35qViDWnE0bRqGjG2LNNMeOrS6IJymGPT6LLvcc+I9e0Wxx8sUEDkwAJssCetf7OUkHNvGrvS4H9ysc7Y6sKHklcyUUIi9GhBbok5qBwOLc1XPmbXHzX6vXSJe7RLoeDfX8MENISZK87QhyG9UQpeVZTz3DztiiOWTq92isWOhbY5ZlhEj6OLHpyLzcsFg9EKFsltvW8mfAxPKl5BWXXrA7iqMSTOo4JMyTQZv3nKvEWc7SYrpHHpmKkvX4to/7bnHNULAZTbNrVFjINJVBSwSH6mBx2KizOw34DDF+6P5R25+kdOiG53MQjsbaYU2t2lhRhs=
